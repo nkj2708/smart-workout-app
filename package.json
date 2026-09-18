@@ -1,0 +1,25 @@
+{
+  "name": "smart-fitness-recommendation",
+  "version": "1.0.0",
+  "description": "Smart Workout & Fitness Recommendation System powered by MERN stack and Google Gemini AI",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "fitness",
+    "recommendation-system",
+    "gemini-api",
+    "mern",
+    "react",
+    "mongodb",
+    "express",
+    "recharts",
+    "tailwind"
+  ],
+  "author": "Nikhil Kumar Jha",
+  "license": "MIT"
+}
